@@ -1,0 +1,662 @@
+@media screen and (min-width: 1450px){
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+}
+a{
+    color:black
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+/* Nav bar css */
+#topnav1{
+    padding: 10px;
+   border-radius: 30px;
+    background-color:rgb(252,224,33);
+}
+#topnav{
+    position: fixed;
+    height: 76px;
+    width:100%;
+    background-color:rgb(252,224,33);
+    z-index: 1;
+}
+.logoicon{
+    display:flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-top: 8px;
+}
+.threeround{
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+    top:-28px;
+}
+.allbar {
+    font-size: 25px;
+    padding-top: 20px;
+}
+.sqareline{
+    width: 1px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+
+/* large Image cover page8 */
+
+#coverpage{
+    background-image: url(../image/test_bg.jpg);
+    background-repeat: repeat;
+    height: 1600px;
+    width: 100%;
+}
+.character{
+    height:700px;
+}
+.cover1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 90px;
+}
+.cover2{
+    justify-content: center;
+    padding: 0px 70px 70px 70px;}
+.cover3{
+   position: relative;
+   top: 120px;
+   left: 20px;
+   text-align: center;
+   font-size: 60px;
+}
+.cover4{
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-top: 30px;
+    height: 900px;
+}
+.cover5{
+    display: flex;
+    justify-content: center;
+}
+/*  text name  */
+.MyName{
+    position: relative;
+    top: -245px;
+    left: 250px;
+    font-size: 100px;
+}
+.Name{
+    position: relative;
+    top:-150px;
+    left:-100px;
+    font-size: 150px;
+}
+.Nameback{
+    position: relative;
+    top:-70px;
+    left:-100px;
+    font-size:80px;
+    color: rgba(152, 135, 23, 0.874);
+}
+.cover6{
+    display: flex;
+    justify-content: center;
+}
+.buton1{
+    width: 700px;
+    height: 120px;
+    border-radius: 60px;
+    background-color:rgb(252,224,33);
+    font-size: 50px;
+    border: 0px;
+    position: relative;
+    bottom: 150px;
+}
+
+/*   About me   */
+.test1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.test2{
+    background-color: rgba(0,0,0,0.9);
+}
+.test6{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252,224,33);
+}
+.test3{
+    display: flex;
+    justify-content: center;
+}
+.threeRoundInTiltle1{
+    font-size: 75px;
+    position: relative;
+    left: 90px;
+    color: rgb(252,224,33);
+}
+.threeRoundInTiltle{
+    font-size: 75px;
+    position: relative;
+    left: 90px;
+}
+.AMname{
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+    color: rgb(252,224,33);
+}
+.SSname{
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+.textbox{
+    border-radius: 30px;
+    margin: 70px 70px 300px 70px;
+    padding: 50px 70px  ;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255,0.9);
+}
+.textbox2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.iconin{
+     width: 13vw;
+     padding: 2vw 2vw 1vw 2vw; 
+     margin: 1vw;
+}
+
+/*     Protfolio    */
+#Pro{
+    height: 110px;
+    width:100%;
+    background-color:rgb(252,224,33);
+}
+.Proname{
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+.test8{
+    display: flex;
+    justify-content: center;
+}
+.proimage{
+    width: 100%;
+}
+/* Contact Me */ 
+#CM{
+    height: 110px;
+    width:100%;
+    background-color:rgb(252,224,33);
+}
+.CMname{
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+.test10{
+    display: flex;
+    justify-content: center;
+}
+.contactForm{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+
+}
+label{
+    align-content: left;
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+.leftForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding:50px 100px 0px 100px;
+    background-color: rgb(84, 84, 84);
+}
+.RightForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding:50px ;
+    background-color: rgb(174, 169, 169);
+}
+#peoplename{
+    width: 33vw;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: 0px;
+}
+#phone{
+    width: 33vw;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: 0px;
+}
+#email{
+    width: 33vw;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: 0px;
+}
+#OCM{
+    width: 33vw;
+    height: 350px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: 0px;
+}
+#title{
+    width: 53vw;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: 0px ;
+}
+#message{
+    width: 53vw;
+    height: 700px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: 0px;
+}
+#subutton{
+    width: 300px;
+    height: 120px;
+    border-radius: 60px;
+    background-color:rgb(252,224,33);
+    font-size: 50px;
+    border: 0px;
+    margin: 30px;
+    align-self: center;
+}
+#connect{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.lastT{
+    font-size: 35px;
+    padding: 25px;
+    color: white;
+    align-items: center;
+}
+.Cicon{
+    height: 120px;
+    padding: 10px;
+    align-items: center;
+}
+}
+
+
+
+/*     <1450px     */
+@media screen and (max-width: 1450px){
+    body{
+        font-family: 'Playfair Display', serif;
+        margin: 0px;
+    }
+    a{
+        color:black
+    }
+    a:hover{
+        color:white;
+        text-decoration: none;
+    }
+    /* Nav bar css */
+    .buttonsize{
+        height: 76px;
+        border: 0px;
+    }
+    #topnav1{
+        padding: 10px;
+       border-radius: 30px;
+        background-color:rgb(252,224,33);
+    }
+    #topnav{
+        position: fixed;
+        height: 76px;
+        width:100%;
+        background-color:rgb(252,224,33);
+        z-index: 1;
+    }
+    .logoicon{
+        display:flex;
+        flex-direction: row;
+        padding-left: 100px;
+        padding-top: 8px;
+    }
+    .threeround{
+        font-size: 40px;
+        position: relative;
+        left: 50px;
+        top:-28px;
+    }
+    .allbar {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .sqareline{
+        width: 1px;
+        height: 30px;
+        background-color: black;
+        position: relative;
+        left: 25px;
+        top: 25px;
+    }
+    
+    /* large Image cover page8 */
+    
+    #coverpage{
+        background-image: url(../image/test_bg.jpg);
+        background-repeat: repeat;
+        width: 100%;
+        
+    }
+    .cover1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
+    }
+    .cover2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .character{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 30vw;
+        margin: 50px;
+    }
+    .cover3{
+        position: relative;
+        top:13.5vw;
+        left: 1vw;
+       text-align: center;
+       font-size: 3.5vw;
+    }
+    .cover4{
+        margin-bottom: 20vw;
+        border-radius: 5vw;
+        width:70vw;
+    }
+    .cover5{
+        display: flex;
+        justify-content: center;
+    }
+    /*  text name  */
+    .MyName{
+        position: relative;
+        top: -15vw;
+        left: 15vw;
+        font-size: 6vw;
+    }
+    .Name{
+        position: relative;
+        top:-9vw;
+        left:-5vw;
+        font-size: 8vw;
+    }
+    .Nameback{
+        position: relative;
+        top:-7vw;
+        left:-5vw;
+        font-size:5vw;
+        color: rgba(152, 135, 23, 0.874);
+    }
+    .cover6{
+        display: flex;
+        justify-content: center;
+    }
+    .buton1{
+        width: 50vw;
+        height: 120px;
+        border-radius: 60px;
+        background-color:rgb(252,224,33);
+        font-size: 3vw;
+        border: 0px;
+        position: relative;
+        bottom: 8vw;
+    }
+    
+    /*   About me   */
+    .test1{
+        display: flex;
+        flex-direction: column;
+    }
+    .test2{
+        background-color: rgba(0,0,0,0.9);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .test6{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(252,224,33);
+    }
+    .test3{
+        display:flex;
+        justify-content: center;
+    }
+    .threeRoundInTiltle1{
+        font-size: 75px;
+        position: relative;
+        left: 90px;
+        color: rgb(252,224,33);
+    }
+    .threeRoundInTiltle{
+        font-size: 75px;
+        position: relative;
+        left: 90px;
+    }
+    .AMname{
+        position: relative;
+        top: 30px;
+        font-size: 40px;
+        color: rgb(252,224,33);
+    }
+    .SSname{
+        position: relative;
+        top: 30px;
+        font-size: 40px;
+    }
+    .textbox{
+        border-radius: 30px;
+        margin: 70px 70px 70px 70px;
+        padding: 50px 70px  ;
+        font-size: 40px;
+        background-color: rgba(255, 255, 255,0.9);
+    }
+    .textbox2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .iconin{
+         width: 13vw;
+         padding: 2vw 2vw 1vw 2vw; 
+         margin: 1vw;
+    }
+    
+    /*     Protfolio    */
+    #Pro{
+        height: 110px;
+        width:100%;
+        background-color:rgb(252,224,33);
+    }
+    .Proname{
+        position: relative;
+        top: 30px;
+        font-size: 40px;
+    }
+    .test8{
+        display: flex;
+        justify-content: center;
+    }
+    .proimage{
+        width: 100%;
+    }
+
+/* Contact Me */ 
+
+.test9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(84, 84, 84);
+   
+}
+.CMname{
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+.test10{
+    height: 110px;
+    width:100%;
+    background-color:rgb(252,224,33);
+    display: flex;
+    justify-content: center;
+}
+.contactForm{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+label{
+    align-content: left;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+.leftForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.RightForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+#peoplename{
+    width: 70vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 0px;
+}
+#phone{
+    width: 70vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 0px;
+}
+#email{
+    width: 70vw;
+    height: 50px;
+    border-radius:10px;
+    font-size: 50px;
+    border: 0px;
+}
+#OCM{
+    width: 70vw;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 0px;
+    margin: 0px 0px 5px 0px;
+}
+#title{
+    width: 70vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 0px ;
+}
+#message{
+    width: 70vw;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: 0px;
+}
+#subutton{
+    width: 200px;
+    height: 60px;
+    border-radius: 60px;
+    background-color:rgb(252,224,33);
+    font-size: 20px;
+    border: 0px;
+    margin: 10px;
+    align-self: center;
+}
+#connect{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.lastT{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    align-items: center;
+}
+.Cicon{
+    height:90px;
+    padding: 10px;
+    align-items: center;
+}
+.forsmall{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+}
